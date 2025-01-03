@@ -1,0 +1,27 @@
+{
+  "name": "symfonia-ebiuro-node",
+  "version": "0.0.1",
+  "description": "symfonia ebiuro node client",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  }
+}
